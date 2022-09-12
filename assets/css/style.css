@@ -64,7 +64,7 @@ main{
 }
 
 table{
-   margin-top: 30px;
+   margin: 30px 0;
    border-spacing: 0;
 }
 
@@ -84,4 +84,34 @@ th{
 
 .color1{
    background-color: rgb(151, 235, 235);
+}
+
+.consigli{
+   margin-top: 30px;
+   margin-left: 5px;
+   color: gray;
+}
+
+.img1{
+   height: 200px;
+   width: 300px;
+   background-image: url(../../assets/img/monitor.jpg);
+   background-repeat: no-repeat;
+   margin-left: 5px;
+   margin: 10px;
+   color: white;
+   font-size: 20px;
+   padding: 10px 10px;
+}
+
+.img2{
+   height: 200px;
+   width: 300px;
+   background-image: url(../../assets/img/graph.jpg);
+   background-repeat: no-repeat;
+   margin-left: 5px;
+   margin: 10px;
+   color: white;
+   font-size: 20px;
+   padding: 10px 10px;
 }
