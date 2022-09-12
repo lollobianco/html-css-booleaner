@@ -7,11 +7,44 @@
 header{
    background-color: #4EA0FF;
    background-image: url(../../assets/img/pattern.png);    
+   margin-bottom: 2%;
+   
+}
+
+main{
+   margin-left: 10px;
 }
 
 #logo{
    width: 18%;
    margin-top: 4%;
-   margin-left: 12%;
-   margin-bottom: 0.5%;
+}
+
+.title{
+   font-size: 70px;
+}
+
+.author{
+   font-size: 30px;
+   color: gray;
+}
+
+#booleaner{
+   color: rgb(0, 153, 241);
+}
+
+.date{
+   color: gray;
+   font-size: 20px;
+   margin-bottom: 1%;
+}
+
+.images{
+  width: 49%;
+  height: 699px;
+  object-fit: cover;
+}
+
+.container{
+   
 }
