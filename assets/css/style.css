@@ -54,4 +54,5 @@ main{
 
 #list{
    margin-top: 30px;
+   margin-left: 1rem; /*1rem per mostrare i pallini*/
 }
