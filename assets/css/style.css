@@ -45,14 +45,43 @@ main{
 }
 
 .container{
+   font-size: 25px;
    
+}
+
+#caption1{
+   font-size: 20px;
 }
 
 #caption2{
    margin-bottom: 30px;
+   font-size: 20px;
 }
 
 #list{
    margin-top: 30px;
    margin-left: 1rem; /*1rem per mostrare i pallini*/
+}
+
+table{
+   margin-top: 30px;
+   border-spacing: 0;
+}
+
+td{
+   padding: 10px 50px;
+}
+
+th{
+   padding-top: 10px;
+}
+
+.first-color{
+   background-color: dodgerblue;
+   color: white;
+   padding: 5px;
+}
+
+.color1{
+   background-color: rgb(151, 235, 235);
 }
