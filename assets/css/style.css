@@ -10,9 +10,9 @@ header{
    margin-bottom: 2%;
 }
 
-main{
+/* main{
    margin-left: 10px;
-}
+} */
 
 #logo{
    width: 18%;
@@ -45,9 +45,11 @@ main{
   object-fit: cover;
 }
 
+
 .container{
    font-size: 25px;
-   margin: 0 150px;   
+   width: 85%;      /*centratura*/
+   margin: auto;   
 }
 
 #caption1{
@@ -61,7 +63,7 @@ main{
 
 #list{
    margin-top: 30px;
-   margin-left: 1rem; /*1rem per mostrare i pallini*/
+   margin-left: 1em;
 }
 
 table{
@@ -69,24 +71,21 @@ table{
    border-spacing: 0;
 }
 
-td{
-  padding: 10px 0;
-}
-
 th{
-   padding-right: 90px;
+   text-align: left;
 }
 
-#th-speciale{
-padding-right: 790px;
+.column-1-2{
+   width: 20%;
 }
+
 
 .first-color{
    background-color: dodgerblue;
    color: white;
 }
 
-.color1{
+.first, .last{
    background-color: rgb(151, 235, 235);
 }
 
@@ -98,27 +97,26 @@ padding-right: 790px;
 }
 
 .img1{
-   height: 300px;
-   width: 400px;
+   height: 340px;
+   width: 510px;
    background-image: url(../../assets/img/monitor.jpg);
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: contain;
    margin-left: 5px;
-   margin: 10px;
+   margin-bottom: 10px;
    color: white;
    font-size: 30px;
-   padding: 10px 10px;
+   padding: 20px 20px;
 }
 
 .img2{
-   height: 300px;
-   width: 400px;
+   height: 350px;
+   width: 510px;
    background-image: url(../../assets/img/graph.jpg);
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: contain;
    margin-left: 5px;
-   margin: 10px;
    color: white;
    font-size: 30px;
-   padding: 10px 10px;
+   padding: 20px 20px;
 }
